@@ -1,0 +1,1 @@
+export const HOST = "http://api.lapangan-id.bisaai.id"

@@ -1,0 +1,13 @@
+GET http://api.lapangan-id.bisaai.id/api/v1/profile
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1NTY0NzUzMSwianRpIjoiM2FkMGNkMjQtMDUxOS00MjhiLTgwYjEtZTk1ZjA0NzMzYThlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MiwibmJmIjoxNjU1NjQ3NTMxLCJleHAiOjE2NTU3MzM5MzEsInJvbGUiOiJQYXJ0bmVyIn0.p_KSgPo-NE8qiUf-uv784bz4OTT9SZ9t7ml2IrbjZxE
+
+###
+
+POST http://47.254.215.55:5000/api/v1/profile
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTY1NTQ2NTMyOCwianRpIjoiNzBlZGQyZTgtZGIyNS00Nzg2LThmN2ItOGU0NzYxZDc1YWZlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6MywibmJmIjoxNjU1NDY1MzI4LCJleHAiOjE2NTU1NTE3MjgsInJvbGUiOiJVc2VyIn0.qP05js4MzlQylDWxUiA-4wsQ0dKWL7bZqCesLV0dix0
+Content-Type: application/json
+
+{
+    "name": "testing",
+    "phone": "08888888888"
+}
